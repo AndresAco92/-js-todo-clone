@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.debug{
+  background-color: aquamarine;
+}
+
+ body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+ }
+
+.list_block{
+  background-image: url(../img/note1200.jpg);
+  background-size: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 1000px;
+}
+
+.list_box{
+  margin-left: 300px;
+  margin-top: 60px;
+  width: 560px;
+  transform: rotate(-9deg);
+}
+
+.name_list{
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 48px;
+}
+
+.text_in{
+  width: 560px;
+  margin-bottom: 34px;
+  border: 2px solid yellow;
+  font-size: 15px;
+}
+
+
+ .scale_list{
+  list-style: none;
+}
+
+ .scale_list li{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 32px;
+ }
